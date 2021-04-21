@@ -9,7 +9,7 @@ import { humanReadableTimeFromSeconds } from '../utils/helpers';
  */
 const TrackCard = ({ track }) => {
   const { title, thumbnail, author, length, modulesCount } = track;
-
+  console.log(track);
   return (
     <CardContainer>
       <CardContent>
